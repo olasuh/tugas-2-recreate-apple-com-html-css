@@ -57,6 +57,13 @@ body {
     gap: 20px;
 }
 
+.nav-icons button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .nav-icons img {
     width: 16px;
     height: 16px;
@@ -78,9 +85,13 @@ body {
     color: #1d1d1f;
 }
 
-.promo a {
+.promo button {
+    border: none;
+    background: none;
+    padding: 0;
     color: #0066cc;
-    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 /* BUTTON */
@@ -91,17 +102,18 @@ body {
     gap: 16px;
 }
 
-.hero-buttons a {
+.hero-buttons button {
     display: inline-block;
     padding: 12px 24px;
     border: 1px solid #0077ed;
     border-radius: 25px;
-    text-decoration: none;
+    background-color: transparent;
     font-size: 16px;
     color: #0077ed;
+    cursor: pointer;
 }
 
-.hero-buttons a:first-child {
+.hero-buttons button:first-child {
     background-color: #0077ed;
     color: white;
 }
@@ -508,11 +520,11 @@ body {
     opacity: 0.7;
 }
 
-.hero-buttons a {
+.hero-buttons button {
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.hero-buttons a:hover {
+.hero-buttons button:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
